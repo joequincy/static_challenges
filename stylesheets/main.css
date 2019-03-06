@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background-color: #1d1d1d;
+  color: #ffffff;
   display: inline-block;
   max-width: 1440px;
   text-align: left;
@@ -54,10 +56,6 @@ nav ul, section {
   justify-content: space-evenly;
 }
 
-nav li {
-  color: #ffffff;
-}
-
 main {
   position: relative;
 }
@@ -71,7 +69,6 @@ main figcaption {
   position: absolute;
   top: 30px;
   left: 30px;
-  color: #ffffff;
   font-size: 24pt;
 }
 
@@ -101,6 +98,7 @@ section figure {
 
 section figure figcaption {
   font-size: 17pt;
+  color: #000000;
 }
 
 section figure img {
@@ -115,9 +113,4 @@ footer {
 
 .bold {
   font-weight: bold;
-}
-
-.dark {
-  background-color: #1d1d1d;
-  color: #ffffff;
 }
